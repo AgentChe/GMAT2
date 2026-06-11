@@ -8,18 +8,15 @@
 import Foundation
 
 final class GlobalDefinitions {
-    static let domain = "https://bank5.apps-by-konstantin.com"
+    static let domain = "https://bank5.thinkaboutapps.com"
     static let apiKey = "Y2Tv7DAWJFHixQblULt9"
     
     static let otterScaleHost = "https://api.korrekted.com"
     static let otterScaleApiKey = "oR1dunIBykPH4Uvq"
     
-    static let applicationTag = "EXAMS_GMAT"
-    static let amplitudeApiKey = "8b5138249711d65974423b54fed13562"
-    
-    static let termsOfServiceUrl = URL(string: "https://appslaunchpad.com/terms")!
-    static let privacyPolicyUrl = URL(string: "https://appslaunchpad.com/policy")!
-    static let contactUsUrl = URL(string: "https://appslaunchpad.com/contact")!
+    static let termsOfServiceUrl = URL(string: "https://thinkaboutapps.com/terms")!
+    static let privacyPolicyUrl = URL(string: "https://thinkaboutapps.com/policy")!
+    static let contactUsUrl = URL(string: "https://thinkaboutapps.com/contact")!
     
     enum Paygate {
         static let lifetime = "prep.exams.gmat.lifetime"
